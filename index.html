@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dandelion And Wildflowers</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            display: flex;
+            position: relative;
+        }
+
+        .logo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            max-width: 200px;
+        }
+
+        .logo img {
+            width: 100%;
+            height: auto;
+        }
+
+        .main-content {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .main-image {
+            max-width: 80%;
+            max-height: 80vh;
+        }
+
+        .main-image img {
+            width: 100%;
+            height: auto;
+        }
+
+        .coming-soon {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            font-size: 2rem;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <img src="DDW Logo.jpg" alt="DDW Logo">
+    </div>
+
+    <div class="main-content">
+        <div class="main-image">
+            <img src="DDW Main.png" alt="DDW Main">
+        </div>
+    </div>
+
+    <div class="coming-soon">
+        Coming Soon
+    </div>
+</body>
+</html>
