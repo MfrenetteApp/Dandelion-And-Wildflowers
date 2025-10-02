@@ -62,11 +62,24 @@
             background: linear-gradient(135deg, #f5ebe0 0%, #faf8f5 100%);
         }
 
+        .hero-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero-logo {
+            width: 80px;
+            height: auto;
+        }
+
         .hero h1 {
             font-family: 'Playfair Display', serif;
             font-size: 3.5rem;
             color: #8b6f47;
-            margin-bottom: 1rem;
+            margin: 0;
         }
 
         .hero p {
@@ -186,14 +199,17 @@
 
     <!-- Hero Section -->
     <section class="hero" id="home">
-        <h1>Dandelion & Wildflowers</h1>
+        <div class="hero-header">
+            <img src="DDW Logo.jpg" alt="Logo" class="hero-logo">
+            <h1>Dandelion & Wildflowers</h1>
+        </div>
         <p>Embrace natural beauty and bohemian elegance</p>
     </section>
 
     <!-- Content Section 1 -->
     <section class="content-section" id="about">
         <div class="image-block">
-            <img src="DDW Logo.jpg" alt="Dandelion & Wildflowers">
+            <img src="DDW 3.png" alt="Dandelion & Wildflowers">
         </div>
         <div class="text-block">
             <h2>Our Story</h2>
@@ -206,7 +222,7 @@
     <!-- Content Section 2 -->
     <section class="content-section" id="services">
         <div class="image-block">
-            <img src="DDW 3.png" alt="Services">
+            <img src="DDW 4.png" alt="Services">
         </div>
         <div class="text-block">
             <h2>What We Offer</h2>
